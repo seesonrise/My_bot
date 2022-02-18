@@ -89,7 +89,7 @@ def callback_worker(call):
         keybord.add(cancel)
         answer = 'Ваш товар "Ключ на один день" если всё верно нажмите на кнопку оплатить'
         bot.send_message(call.message.chat.id, answer, reply_markup=keybord)
-        PRICE = 100
+        PRICE = 500
         print("anal")
         global oplata
         oplata = True
@@ -117,7 +117,7 @@ def callback_worker(call):
         keybord.add(cancel)
         answer = 'Ваш товар "Ключ на один неделю" если всё верно нажмите на кнопку оплатить'
         bot.send_message(call.message.chat.id, answer, reply_markup=keybord)
-        PRICE = 1000
+        PRICE = 2000
         print("anal")
         global oplata
         oplata = True

@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import requests
 import json
-"""165"""
+"""1652"""
 
 QIWI_TOKEN = '8b9f0f50831a5766ddf99e5cd3345fdc'
 QIWI_ACCOUNT = 'SEESONRISE'
@@ -137,3 +137,4 @@ def callback_worker(call):
 
 
 bot.polling(none_stop=True, interval=0)
+
